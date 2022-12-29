@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Header*/
+body{
+    margin:0;
+    padding:0;
+}
+
+.header{
+    display:flex;
+    justify-content:center;
+    background-color:#1F2937;
+    padding:30px;
+    color:white;
+}
+.logo{
+    margin-right:auto;
+}
+
+.links{
+    display:flex;
+    gap:30px;
+}
+a{
+    color:white;
+}
+a:link{
+    text-decoration:none;
+}
+
+
+/*First Section*/
+
+.section1{
+    background-color:#1F2937;
+    display:flex;
+    padding:50px;
+    justify-content:center;
+    align-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+    color:white;
+}
+
+.left{
+    flex:1;
+    padding:50px;
+}
+
+.right{
+    flex:1;
+}
+
+.signup{
+    background-color:blue;
+    cursor: pointer;
+    font-weight:525;
+    font-size:12px;
+    padding:5px;
+    border-radius:10%;
+    border:none;
+}
+
+.examplewebsite{
+    width:500px;
+    height:auto;
+    border-radius:10%;
+}
+
+/*Second Section*/
+.section2{
+    display:flex;
+    justify-content:center;
+    padding:200px;
+    background-color:#5e92e7;
+}
+
+.cards{
+    display:flex;
+    gap:50px;
+}
+
+.card1,
+.card2,
+.card3{
+    display:flex;
+    flex-direction:column;
+}
+
+/*Third Section*/
+.section3{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    padding:50px;
+    background-color:#E5E7E5;
+    font-weight:550;
+    font-style:italic;
+}
+
+#quote{
+    width:700px;
+}
+
+#name{
+    width:700px;
+    flex:auto;
+}
+
+/*Footer*/
+#footer{
+    display:flex;
+    width:100%;
+    height:75px;
+    justify-content: center;
+    align-items:center;
+    position:relative;
+    bottom:0;
+    font-weight:bold;
+    color:black;
+    background-color:rgba(97, 87, 61, 0.818);
+
+}
+
+
+
