@@ -17,6 +17,7 @@ body{
 }
 .logo{
     margin-right:auto;
+    
 }
 
 .links{
@@ -56,11 +57,12 @@ a:link{
 .signup{
     background-color:blue;
     cursor: pointer;
-    font-weight:525;
+    font-weight:550;
     font-size:12px;
     padding:5px;
     border-radius:10%;
     border:none;
+    color:white;
 }
 
 .examplewebsite{
@@ -73,8 +75,21 @@ a:link{
 .section2{
     display:flex;
     justify-content:center;
-    padding:200px;
-    background-color:#5e92e7;
+    align-items:center;
+    flex-direction:column;
+    padding:100px;
+    background-color:#E5E7E5;
+    gap:50px;
+    flex:wrap;
+}
+
+.s2-header{
+    text-align:center;
+    font-size: 35px;
+    font-weight:550;
+    margin-top:-50px;
+
+
 }
 
 .cards{
@@ -86,7 +101,18 @@ a:link{
 .card2,
 .card3{
     display:flex;
-    flex-direction:column;
+    flex-direction:column; 
+    align-items:center;
+    gap:30px;
+    text-align:center;
+    font-weight: 550;
+    flex:1;
+}
+
+
+.pictures{
+    width:300px;
+    border-radius:20%;
 }
 
 /*Third Section*/
@@ -95,9 +121,10 @@ a:link{
     flex-direction:column;
     align-items:center;
     padding:50px;
-    background-color:#E5E7E5;
+    background-color:#1F2937;
     font-weight:550;
     font-style:italic;
+    color:#E5E7E5;
 }
 
 #quote{
@@ -107,6 +134,45 @@ a:link{
 #name{
     width:700px;
     flex:auto;
+}
+
+/* Fourth Section*/
+
+.section4{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:500px;
+    background-color:#E5E7E5;
+}
+.box{
+    display:flex;
+    flex-direction:column;
+    gap:50px;
+    font-size:30px;
+    font-weight:300;
+    text-align:center;
+    color:#1F2937;
+    height:300px;
+    width:800px;
+    justify-content:center;
+    align-items:center;
+}
+
+#options{
+    display:flex;
+    gap:30px;
+    font-size:15px;
+    font-weight:500;
+    font-style:italic;
+}
+
+.quote{
+    background-color:#E5E7E5;
+    color:black;
+    border-radius:5%;
+    cursor:pointer;
+
 }
 
 /*Footer*/
@@ -119,8 +185,8 @@ a:link{
     position:relative;
     bottom:0;
     font-weight:bold;
-    color:black;
-    background-color:rgba(97, 87, 61, 0.818);
+    color:white;
+    background-color:#1F2937
 
 }
 
