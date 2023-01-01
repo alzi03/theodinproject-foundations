@@ -31,3 +31,46 @@ console.log(typeof(z))
 
 const person = {firstname:"Alam", lastname:"Zishan", age:"19", eyeColor:"brown"};
 person;
+
+x = 1.9812739813;
+const xfixed = x.toFixed(2);
+console.log(xfixed);
+
+const num1 = 10;
+const num2 = 50;
+9 * num1;
+num1 ** 3;
+num2 / num1;
+
+console.log(num1)
+console.log(num2)
+
+let a = 10;
+console.log(a);
+9 * a
+let b = 7 * a;
+console.log(b)
+
+const max = 57;
+const actual = max - 13;
+const percentage = actual / max
+console.log(percentage.toFixed(4))
+
+g = new Number(573)
+console.log(g)
+
+g = 5 - "ok"
+console.log(g)
+
+x = 'hi'
+y = "hello"
+z = `${x}`
+console.log(x)
+console.log(y)
+console.log(z);
+
+text = 'Peter Piper picked a pickled pepper'
+one = text.slice(0, 5)
+two = text.substring(-3, 5)
+three = text.substr(0, 5)
+console.log(one), console.log(two), console.log(three)
