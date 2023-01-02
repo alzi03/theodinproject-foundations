@@ -105,3 +105,29 @@ else if (y === 'Cancel'){
 else{
     console.log('I don\'t know you')
 }
+
+/* Car Selector */
+
+const car = document.querySelector('select');
+const para = document.querySelector('p');
+
+const choice = car.value
+car.addEventListener('change', carChoice)
+
+function carChoice(){
+    if (choice === 'Toyota'){
+        console.log('Good ol\' reliable')
+    }
+    else if (choice === 'Tesla'){
+        console.log('The New Wave')
+    }
+    else if (choice = 'BMW'){
+        console.log('Luxury and a Classic')
+    }
+    else if (choice = 'Mercedes'){
+        console.log('BMW 2.0')
+    }
+    else{
+        console.log('')
+    }
+}
