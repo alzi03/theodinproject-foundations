@@ -69,8 +69,39 @@ console.log(x)
 console.log(y)
 console.log(z);
 
-text = 'Peter Piper picked a pickled pepper'
+let text = 'Peter Piper picked a pickled pepper'
 one = text.slice(0, 5)
 two = text.substring(-3, 5)
 three = text.substr(0, 5)
 console.log(one), console.log(two), console.log(three)
+
+text = 'I love Apples';
+newtext = text.replace('Apples', 'Kiwis');
+console.log(newtext);
+
+x = '5'
+x = x.padStart(4, '0')
+console.log(x)
+
+let age = 91;
+
+y = prompt("Enter a login:")
+
+if (y === 'Admin'){
+    x = prompt("Password:");
+    if (x === 'TheMaster') {
+        console.log('Welcome')
+    }
+    else if (x === 'Cancel'){
+        console.log('Canceled')
+    }
+    else{
+        console.log('Wrong Password')
+    }
+}
+else if (y === 'Cancel'){
+    console.log('Cancelled')
+}
+else{
+    console.log('I don\'t know you')
+}
