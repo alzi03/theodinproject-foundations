@@ -145,7 +145,11 @@ console.log(output)
 
 
 /* Nested ? */
-realname = prompt('What is the real name of Javascript?', '')
+/* realname = prompt('What is the real name of Javascript?', '') 
 output2 = (realname === 'ECMAScript') ? 'Correct' : 'Incorrect'
 console.log(output2)
+*/
 
+number = prompt('Enter a number:', '')
+output3 = (number > 0) ? 'Greater than 1' : (number == 0) ? 'Zero' : 'Less than 1'
+console.log(output3)
