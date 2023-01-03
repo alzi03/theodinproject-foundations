@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>google dev tools</title>
+</head>
+<body>
+    <h1>Loading...</h1>
+    <script src="scripts.js"></script>
+
+    <script>
+        const h1 = document.querySelector('h1')
+        const text = h1.textContent
+        console.log(text)
+        console.assert(document.querySelector('h2'), 'h2 not found')
+        const data = 
+            {
+                'FirstName':'Alam',
+                'LastName': 'Zishan',
+                'Age':19
+            }
+        console.table(data)
+        
+        /*
+        setTimeout(() => {
+            h1.textContent = `Welcome, ${data['FirstName']}!`
+            console.log(h1.textContent)
+        }, 5000);
+        */
+    </script>
+</body>
+</html>
+
