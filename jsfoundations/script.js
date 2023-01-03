@@ -153,3 +153,48 @@ console.log(output2)
 number = prompt('Enter a number:', '')
 output3 = (number > 0) ? 'Greater than 1' : (number == 0) ? 'Zero' : 'Less than 1'
 console.log(output3)
+
+
+/* Switches */
+
+let month = (new Date().getMonth())
+switch (month){
+    case 0:
+        console.log('January')
+        break
+    case 1:
+        console.log('February')
+        break
+    case 2:
+        console.log('March')
+        break
+    case 3:
+        console.log('April')
+        break
+    case 4:
+        console.log('May')
+        break
+    case 5:
+        console.log('June')
+        break
+    case 6:
+        console.log('July')
+        break
+    case 7:
+        console.log('August')
+        break
+    case 8:
+        console.log('September')
+        break
+    case 9:
+        console.log('October')
+        break
+    case 10:
+        console.log('November')
+        break
+    case 11:
+        console.log('December')
+        break
+    default:
+        console.log('You somehow broke the calendar')
+}
