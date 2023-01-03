@@ -107,7 +107,7 @@ else{
 }
 
 /* Car Selector */
-
+/*
 const car = document.querySelector('select');
 const para = document.querySelector('p');
 
@@ -131,3 +131,21 @@ function carChoice(){
         console.log('')
     }
 }
+*/
+
+/* ? Conditionals */
+age = 19;
+output = (age>18) ? 1:2;
+console.log(output)
+
+output = (age < 3) ? 'Baby':
+(age < 13) ? 'Child':(age < 18) ? 'Teenager': 'Adult'
+console.log(output)
+
+
+
+/* Nested ? */
+realname = prompt('What is the real name of Javascript?', '')
+output2 = (realname === 'ECMAScript') ? 'Correct' : 'Incorrect'
+console.log(output2)
+
