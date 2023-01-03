@@ -10,20 +10,15 @@ const input = document.querySelector("#name")
 const yourname = document.querySelector("#yourname")
 const submit = document.querySelector('#submit')
 
-input.addEventListener('submit', (event) => {
-    if (input.value === ''){
-        yourname.textContent = 'Please enter your name'
-    }
-    else{
-        yourname.textContent = `Hello ${input.value}.`;
-    }
-})
-    
+submit.addEventListener('click', (event) => yourname.textContent = `Hello ${input.value}.`);
 
+let product = (a, b) => a * b
+console.log( product(3, 4))
 
-
-
-
+// ? Conditionals + using shorthand fcn definition
+const statement = 'The Minimum is '
+let min = (a, b) => (a < b) ? statement + a : statement + b
+console.log(min(3, 4))
 
 
 
