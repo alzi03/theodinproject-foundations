@@ -1,0 +1,62 @@
+body{
+    margin:0;
+    padding:0;
+    border:0;
+    background-color:#0b0c10;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+/* Header */
+
+#header{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex-direction:column;
+    flex-wrap:wrap;
+    border:1px solid;
+    font-weight:550;
+    height:150px;
+}
+
+#header #title{
+    font-size:75px;
+    color: #66fcf1;
+    font-weight:550;
+}
+
+/* Middle Section */
+#pick{
+    color:white;
+    text-align:center;
+}
+
+#middle{
+    display:flex;
+    border:1px solid white;
+    justify-content:center;
+    align-items:center;
+    height:100px;
+}
+
+#choices{
+    display:flex;
+    gap:50px;
+    border:1px solid white;
+}
+
+
+/* Footer */
+#footer{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:50px;
+    position:fixed;
+    width:100%;
+    bottom:0;
+    background-color:#C5C6C7;
+    font-weight:400;
+    font-size:20px;
+}
+
