@@ -6,6 +6,12 @@ body{
     font-family: 'PT Sans Narrow', sans-serif;
 }
 
+#text{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+}
+
 /* Header */
 
 #header{
@@ -26,7 +32,6 @@ body{
 
 /* Middle Section */
 #pick{
-    text-align:center;
     color: #123C69;
 }
 
