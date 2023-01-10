@@ -12,6 +12,11 @@ body{
     align-items:center;
 }
 
+button{
+    transition: 3s;
+    
+}
+
 /* Header */
 
 #header{
@@ -30,6 +35,13 @@ body{
     font-weight:550;
 }
 
+button{
+    position:relative;
+}
+button:hover{
+    bottom:20px;
+}
+
 /* Middle Section */
 #pick{
     color: #123C69;
@@ -46,7 +58,7 @@ body{
 
 #choices{
     display:flex;
-    gap:50px;
+    gap:200px;
 }
 .choice{
     display:flex;
