@@ -4,6 +4,7 @@ body{
     border:0;
     background-color:#EDC7B7;
     font-family: 'PT Sans Narrow', sans-serif;
+    min-height:100vh;
 }
 
 #text{
@@ -90,8 +91,8 @@ button:hover{
     display:flex;
     justify-content:center;
     align-items:center;
+    position:absolute;
     height:50px;
-    position:fixed;
     width:100%;
     bottom:0;
     background-color:#C5C6C7;
