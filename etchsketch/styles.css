@@ -23,8 +23,8 @@
 
 button{
     height:50px;
-    box-shadow: 0 0 2px 2px rgb(174, 173, 173);
-    transition-property: background-color;
+    box-shadow: 0 0 5px 1px rgb(174, 173, 173);
+    outline:none;
     font-weight:550;
 
 }
@@ -43,7 +43,6 @@ button:hover{
     display:flex;
     flex-direction: column;
     justify-content:center;
-    border:1px solid black;
     width:150px;
     height:750px;
     gap: 50px;
