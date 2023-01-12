@@ -1,6 +1,5 @@
 const slider = document.querySelector('.slider')
 let n = slider.value
-let squares = n * n
 let auto = ''
 let pencolor = ''
 
@@ -11,7 +10,11 @@ const rainbowMode = document.querySelector('#rainbow');
 const clear = document.querySelector('#clear')
 const size = document.querySelector('.size')
 
-
+const color = document.querySelector('#colorwheel')
+let currentcolor = color.value
+color.addEventListener('change', ()=> {
+    currentcolor = color.value
+})
 
 buttons = [rainbowMode, eraseMode, colorMode]
 
@@ -56,12 +59,13 @@ function griddy(n){
         auto += 'auto '
     }
 
-    console.log(squares)
-    squares = n * n
+    let squares = n * n;
 
     const container = document.querySelector('.container');
-    let gridnum = document.querySelectorAll('.grid-item').length
+    let gridnum = 0;
 
+    const griditems = document.querySelectorAll('.grid-item')
+    griditems.forEach(griditem => griditem.remove())
 
     while (gridnum !== (squares)){
         gridnum++
@@ -70,6 +74,8 @@ function griddy(n){
         container.appendChild(grid_item)
     }
     container.style.cssText = `grid-template-columns:${auto}`
+
+    console.log(squares)
     
 
     const items = document.querySelectorAll('grid-item')
@@ -93,8 +99,8 @@ function changeColor(e){
     if (e.type !== 'mouseover' | !mouseDown) return
 
 
-    if (pencolor == 'black'){
-        this.style.cssText = 'background-color:black;';
+    if (pencolor == 'color'){
+        this.style.cssText = `background-color:${currentcolor};`;
     }
     else if (pencolor == 'eraser'){
         this.style.cssText = 'background-color:white;';
@@ -107,12 +113,6 @@ function changeColor(e){
     }
     
 }
-
-
-
-
-
-
 
 griddy(n)
 

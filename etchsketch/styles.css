@@ -4,6 +4,9 @@
     font-family: 'Roboto', sans-serif;
 }
 
+body{
+    min-height:100vh;
+}
 #header{
     display:flex;
     height:100px;
@@ -45,7 +48,19 @@ button:hover{
     justify-content:center;
     width:150px;
     height:750px;
-    gap: 50px;
+    gap: 25px;;
+}
+
+#colorchoice{
+    align-self:center;
+    border:0px solid;
+    display:flex;
+    flex-direction:column;
+    font-weight:550;
+    align-items:center;
+}
+#colorwheel{
+    border:0px solid;
 }
 
 .grid{
@@ -74,3 +89,17 @@ button:hover{
 .grid-item{
     background-color: white;
 }
+
+#footer {
+    position: fixed;
+    bottom:0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+    padding: 10px;
+    font-size: 20px;
+  }
+  
