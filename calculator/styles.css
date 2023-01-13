@@ -1,0 +1,108 @@
+body{
+    margin:0;
+    padding:0;
+    border:0px;
+    height:100vh;
+    display:flex;
+    align-items:center;
+    font-family: 'Roboto', sans-serif;
+    justify-content:center;
+}
+button{
+    height:60px;
+    width:60px;
+}
+
+#mainBox{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    border:1px solid;
+    gap:20px;
+    width: 400px;
+    height:600px;
+    background-color:rgb(180, 162, 162);
+    border-radius:25px;
+}
+
+.answers{
+    margin-right:10px;
+}
+
+#previousNumber,
+#currentNumber{
+    display:flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    width:300px;
+    overflow-wrap:break-word;
+    overflow:hidden;
+    font-size:20px;
+}
+
+#currentNumber{
+    font-size:30px;
+}
+
+
+#answerBox{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:flex-end;
+    height:150px;
+    width:350px;
+    border:0.5px solid rgb(180, 162, 162);
+    background-color:rgb(241, 206, 246);
+    border-radius:10px;
+
+}
+#toprow{
+    display:flex;
+    width:400px;
+    justify-content:space-evenly;
+}
+.topbutton{
+    border-radius:10px;
+    border:0px;
+    width:90px;
+
+}
+#bottom{
+    display:flex;
+    justify-content:space-around;
+    flex-direction:column;
+    align-items:center;
+    width:400px;
+    gap:10px;
+}
+
+#rows{
+    display:flex;
+    flex-direction:row;
+    gap:30px;
+    height:300px;
+}
+
+.row{
+    display:flex;
+    flex-direction:column;
+    gap:20px;
+}
+
+.number{
+    background-color:rgb(219, 141, 141);
+    outline:none;
+    border:0px;
+    border-radius:10px;
+    font-weight:550;
+}
+
+.symbol{
+    background-color:rgb(158, 203, 211);
+    outline:none;
+    border:0px;
+    border-radius:10px;
+    font-weight:550;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>CalculatorApp</title>
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div id="mainBox">
+            <div id="answerBox">
+                <div class="answers" id="previousNumber"></div>
+                <div class="answers" id="currentNumber"></div>
+            </div>
+
+            <div id="bottom">
+
+                <div id="toprow">
+                    <button data-key="27" class="topbutton" id="clear">C</button>
+                    <button data-key="8" class="topbutton" id="backspace">Del</button>
+                    <button data-key="13" class="topbutton" id="equal">=</button>
+                </div>
+
+                <div id="rows">
+
+                    <div class="row" id="row1">
+                        <button data-key="55" class="number" id="seven">7</button>
+                        <button data-key="52" class="number" id="four">4</button>
+                        <button data-key="49"class="number" id="one">1</button>
+                        <button data-key="48" class="number" id="zero">0</button>
+                    </div>
+
+                    <div class="row" id="row2">
+                        <button data-key="56" class="number" id="eight">8</button>
+                        <button data-key="53" class="number" id="five">5</button>
+                        <button data-key="50" class="number" id="two">2</button>
+
+                    </div>
+
+                    <div class="row" id="row3">
+                        <button data-key="57" class="number" id="nine">9</button>
+                        <button data-key="54" class="number" id="six">6</button>
+                        <button data-key="51" class="number" id="three">3</button>
+                        <button data-key="190" class="symbol" id="decimal">.</button>
+                    </div>
+
+                    <div class="row" id="row4">
+                        <button data-key="191" class="symbol" id="divide">÷</button>
+                        <button data-key="56" class=symbol" id="multiply">x</button>
+                        <button data-key="189" class="symbol" id="minus">-</button>
+                        <button data-key="187" class="symbol" id="plus">+</button>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>
+        
